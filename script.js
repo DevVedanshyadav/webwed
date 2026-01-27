@@ -41,10 +41,10 @@ letter.addEventListener("click", () => {
     }
 
     letter.src = `${n_}.png`
-    gsap.to(".letter", {
-        scaleY: 0.5, scale: 0.5
-    })
-    gsap.to(".letter", { scaleY: 4, scaleX: 2 })
+    // gsap.to(".letter", {
+    //     scaleY: 0.5, scale: 0.5
+    // })
+    // gsap.to(".letter", { scaleY: 4, scaleX: 2 })
 })
 
 if (!env_open) {
